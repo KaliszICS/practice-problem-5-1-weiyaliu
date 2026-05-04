@@ -5,7 +5,7 @@ public class PracticeProblem {
 	}
 
 	//1.
-	public static int[] createIntArray() {
+	public static int[] createdIntArray() {
 
 		int[] arr = new int[5];
 
