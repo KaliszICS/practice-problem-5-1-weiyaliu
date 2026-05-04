@@ -4,24 +4,41 @@ public class PracticeProblem {
 
 	}
 
-	public static void q1() {
-		//Write question 1 code here
+	//1.
+	public static int[] createIntArray() {
+
+		int[] arr = new int[5];
+
+		for (int i = 0; i <= 4; i++) {
+			arr[i] =  i + 1;
+		}
+
+		return arr;
 	}
 
-	public static void q2() {
-		//Write question 2 code here
+	//2.
+	public static String[] createArray(String a, String b, String c, String d) {
+
+		String[] arr = new String[4];
+
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+
+		return arr;
+
 	}
 
-	public static void q3() {
-		//Write question 3 code here
+	//3.
+	public static String getElement (int  n, String[] arr) {
+		
+		return arr[n];
 	}
 
-	public static void q4() {
-		//Write question 4 code here
+	//4.
+	public static double replaceElement (int n1, double n2, double[] arr) {
+		
+		return arr[n1] = n2;
 	}
-
-	public static void q5() {
-		//Write question 5 code here
-	}
-
 }
